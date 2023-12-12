@@ -5,6 +5,6 @@ document.getElementById('updateButton').addEventListener('click', function() {
 
 function updateBrightness(brightness) {
     var xhr = new XMLHttpRequest();
-    xhr.open("GET", "https://api.thingspeak.com/update?api_key=XUH1IVZHH7DH791Q&field2=" + brightness, true);
+    xhr.open("GET", "https://api.thingspeak.com/update?api_key=XUH1IVZHH7DH791Q&field3=" + brightness, true);
     xhr.send();
 }
